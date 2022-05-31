@@ -165,7 +165,7 @@ export default function Form() {
       </div>
       {status.type === 'sucesso' && <InputSucess status={status} />}
       <button
-        className='font-bold text-white bg-azul-medio w-full py-2 rounded-lg shadow-2xl hover:bg-gradient-escuro duration-150'
+        className='font-bold text-white bg-azul-medio w-full mt-2 py-2 rounded-lg shadow-2xl hover:bg-gradient-escuro duration-150'
         type='submit'
       >
         Quero participar!

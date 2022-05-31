@@ -14,7 +14,7 @@ const Input = (props) => {
         {props.label}
       </label>
       <input
-        className={`text-sm placeholder:italic placeholder:text-xs w-full mb-2 pl-2 rounded border border-azul-claro hover:border-azul-claro hover:ring-1 hover:ring-azul-medio focus:border-azul-medio focus:ring-1 focus:ring-azul-medio py-2 shadow focus:outline-none  ${
+        className={`text-sm placeholder:italic placeholder:text-xs w-full pl-2 rounded border border-azul-claro hover:border-azul-claro hover:ring-1 hover:ring-azul-medio focus:border-azul-medio focus:ring-1 focus:ring-azul-medio py-2 mb-1 shadow focus:outline-none  ${
           props.status.path === props.id && props.status.type === 'erro'
             ? 'border-red-500'
             : ''
